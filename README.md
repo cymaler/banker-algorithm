@@ -27,11 +27,11 @@ java -ps [pid]：return [pid] information(PCB)
 
 readyqueue：return current system ready queue.
 
-blockqueue：return 
+blockqueue：return current block queue.
 
-runningprocess：查询当前正在运行的进程
+runningprocess: return current running process.
 
-java -process [pid] -resource [resourceId1,resourceId2,...,resourceIdn] -count [count1,count2,...,countn]：进程申请资源, 使用银行家算法观察是否可分配资源
+java -process [pid] -resource [resourceId1,resourceId2,...,resourceIdn] -count [count1,count2,...,countn]：execute banker algorithm.
 ```
 
 
